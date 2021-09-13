@@ -15,7 +15,7 @@
 Add the package in your composer.json by executing the command.
 
 ```bash
-composer require hazestudio/laravel-gopay-sdk
+composer require gnurlan/laravel-gopay-sdk
 ```
 This will both update composer.json and install the package into the vendor/ directory.
 
@@ -25,7 +25,7 @@ Add the service provider to providers:
 ```
 'providers' => [
     ...
-    HazeStudio\LaravelGoPaySDK\GopayServiceProvider::class,
+    Gnurlan\LaravelGoPaySDK\GopayServiceProvider::class,
     ...
 ]
 ```
@@ -34,7 +34,7 @@ And add the facade to aliases:
 ```
 'aliases' => [
     ...
-    'GoPay' => HazeStudio\LaravelGoPaySDK\Facade::class,
+    'GoPay' => Gnurlan\LaravelGoPaySDK\Facade::class,
     ...
 ]
 ```
