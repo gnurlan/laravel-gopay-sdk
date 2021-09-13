@@ -5,10 +5,10 @@
  * Time: 14:54
  */
 
-namespace HazeStudio\LaravelGoPaySDK;
+namespace Gnurlan\LaravelGoPaySDK;
 
 use GoPay;
-use HazeStudio\LaravelGoPaySDK\Events\PaymentCreated;
+use Gnurlan\LaravelGoPaySDK\Events\PaymentCreated;
 
 class GoPaySDK
 {
