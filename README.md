@@ -102,11 +102,11 @@ You can log every Http request and response that GoPay make to api by using log 
 
 |      **Name**      |                     **Class**                    |
 |:--------------:|:------------------------------------------------:|
-| PaymentCreated | HazeStudio\LaravelGoPaySDK\Events\PaymentCreated |
+| PaymentCreated | Gnurlan\LaravelGoPaySDK\Events\PaymentCreated |
 
 Example:
 ```php
-Event::listen(\HazeStudio\LaravelGoPaySDK\Events\PaymentCreated::class, function ($event) {
+Event::listen(\Gnurlan\LaravelGoPaySDK\Events\PaymentCreated::class, function ($event) {
     dd($event->payment);
 });
 ```
