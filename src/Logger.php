@@ -5,7 +5,7 @@
  * Time: 13:19
  */
 
-namespace HazeStudio\LaravelGoPaySDK;
+namespace Gnurlan\LaravelGoPaySDK;
 
 use GoPay\Http\Log\Logger as DefLogger;
 use GoPay\Http\Request;
