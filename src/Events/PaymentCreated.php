@@ -5,7 +5,7 @@
  * Time: 22:13
  */
 
-namespace HazeStudio\LaravelGoPaySDK\Events;
+namespace Gnurlan\LaravelGoPaySDK\Events;
 
 use GoPay\Http\Response;
 
